@@ -203,5 +203,5 @@ const ninethWork = (number) => {
     let result = 0;
     
     let arrayNumber = [];
-    if ( number ) 
+    if ( number ) {}
 }
