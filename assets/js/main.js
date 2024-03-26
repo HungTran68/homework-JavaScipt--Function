@@ -200,8 +200,11 @@ eighthWork(3);
 // Bai 9 : Tim uoc so cua 1 tham so dau vao
 
 const ninethWork = (number) => {
-    let result = 0;
-    
-    let arrayNumber = [];
-    if ( number ) {}
+    for (let i = 0; i <= number ; i++){
+        if ( number % i == 0){
+            console.log('day la uoc so ',i);
+        }
+    }
 }
+console.log('-------');
+ninethWork(6);
